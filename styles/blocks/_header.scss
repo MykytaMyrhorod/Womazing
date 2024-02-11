@@ -1,0 +1,35 @@
+.header {
+  padding-top: 55px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    margin-left: auto;
+    font-size: 15px;
+    font-weight: 400;
+
+    &-list {
+      display: flex;
+      align-items: center;
+      column-gap: 45px;
+    }
+    &-link {
+      display: inline-flex;
+      align-items: center;
+      height: 40px;
+
+      @include hover {
+        & {
+          color: purple;
+        }
+      }
+    }
+  }
+  &__phone-telephone {
+    margin-left: auto;
+    margin-right: 67px;
+  }
+}
