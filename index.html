@@ -99,7 +99,39 @@
             </defs>
           </svg>
         </button>
+        <button
+          class="header__burger-button burger-button visible-mobile"
+          type="button"
+          onclick="mobileOverlay.showModal()"
+        >
+          <span class="visually-hidden">Open navigation menu</span>
+        </button>
       </div>
     </header>
+    <dialog class="mobile-overlay visible-mobile container" id="mobileOverlay">
+      <form class="mobile-overlay__close-button-wrapper" method="dialog">
+        <button class="mobile-overlay__close-button cross-button" type="submit">
+          <span class="visually-hidden">Close navigation menu</span>
+        </button>
+      </form>
+      <div class="mobile-overlay__body">
+        <menu class="mobile-overlay__menu">
+          <ul class="mobile-overlay__list">
+            <li class="mobile-overlay__item">
+              <a class="mobile-overlay__link" href="#">Главная</a>
+            </li>
+            <li class="mobile-overlay__item">
+              <a class="mobile-overlay__link" href="#">Магазин</a>
+            </li>
+            <li class="mobile-overlay__item">
+              <a class="mobile-overlay__link" href="#">О бренде</a>
+            </li>
+            <li class="mobile-overlay__item">
+              <a class="mobile-overlay__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </menu>
+      </div>
+    </dialog>
   </body>
 </html>
