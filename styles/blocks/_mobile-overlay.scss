@@ -4,6 +4,8 @@
   height: 100%;
   margin: 0;
   border: none;
+  overflow-x: hidden;
+  overflow-y: auto;
 
   &:modal {
     max-width: 100%;

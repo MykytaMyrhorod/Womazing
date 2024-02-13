@@ -244,6 +244,8 @@ button {
   height: 100%;
   margin: 0;
   border: none;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .mobile-overlay:modal {
   max-width: 100%;
