@@ -141,11 +141,6 @@ button {
     width: 120px;
   }
 }
-@media (max-width: 767px) {
-  .header__logo img {
-    width: 105px;
-  }
-}
 .header__menu {
   margin-left: auto;
   font-size: 15px;
